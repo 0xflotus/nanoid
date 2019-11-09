@@ -179,10 +179,9 @@ between renders. This is bad code:
 This is good code. `this.id` will be generated only once:
 
 ```jsx
-  id = nanoid()
-  render () {
-    return <Item key={this.id}>;
-  }
+id = nanoid()
+render () {
+  return <Item key={this.id}>;
 }
 ```
 
